@@ -14,6 +14,9 @@ gem 'parallel_tests', '< 2.10' #2.10 requires ruby '>= 2.0.0'
 # Debugging
 gem 'pry'                                   # Easily debug from your console with `binding.pry`
 
+# Code style
+gem 'rubocop' if RUBY_VERSION >= '2.0.0'
+
 group :development do
   # Performance
   gem 'rack-mini-profiler'                  # Inline app profiler. See ?pp=help for options.
