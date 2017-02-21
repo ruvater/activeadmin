@@ -45,3 +45,4 @@ group :test do
   gem 'sqlite3', platforms: :mri
   gem 'poltergeist'
 end
+
